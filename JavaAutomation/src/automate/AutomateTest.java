@@ -6,7 +6,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+/*
+ * Unfinished automation script to purchase Playstation 5.
+ */
 public class AutomateTest {
 
 	public static void main(String[] args) {
