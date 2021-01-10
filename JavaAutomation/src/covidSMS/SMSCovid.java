@@ -18,8 +18,8 @@ public class SMSCovid {
 
 
 	public static void main(String[] args) {
-		String to = "7086737802@tmomail.net";
-		String from = "ericzacarias80@gmail.com";
+		String to = "phonenumberhere@phoneprovideraddress";
+		String from = "email-address-here";
 		String host = "smtp.gmail.com";
 		String cases = "";
 		String deaths = "";
@@ -34,7 +34,7 @@ public class SMSCovid {
 
             protected PasswordAuthentication getPasswordAuthentication() {
 
-                return new PasswordAuthentication(from, "cvsnrtzmiugczokz");
+                return new PasswordAuthentication(from, "gmail-app-password-here");
 
             }
 
